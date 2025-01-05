@@ -1,4 +1,4 @@
-Class:{Application}.
+Class: {Application}.
 	Main.
         ** Declare.
 		Declare var1 as string.
