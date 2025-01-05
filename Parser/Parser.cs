@@ -365,6 +365,12 @@ namespace GStringCompiler
                 dLiteral.Value = 0;
                 return dLiteral;
             }
+            else if (type == typeof(bool))
+            {
+                BooleanLiteral boolLiteral = new BooleanLiteral();
+                boolLiteral.Value = false;
+                return boolLiteral;
+            }
             else if (type == typeof(string))
             {
                 Variable var = new Variable();
