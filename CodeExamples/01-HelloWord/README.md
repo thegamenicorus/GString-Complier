@@ -1,6 +1,6 @@
 ## Hello world!
 
-### helloword.gstr
+### 📝 helloword.gstr
 
 ```
 Class: {Application}.
@@ -14,8 +14,8 @@ End class.
 ```
 Hello, world!!
 ```
-
-### display.gstr
+---
+### 📝 display.gstr
 ```
 Class: {Application}.
 	Main.
