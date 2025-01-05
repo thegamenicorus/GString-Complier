@@ -1,6 +1,6 @@
 ## Hello world!
 
-### helloword.gstr
+### 📝 helloword.gstr
 
 ```
 Class: {Application}.
@@ -14,20 +14,20 @@ End class.
 ```
 Hello, world!!
 ```
-
-### display.gstr
+---
+### 📝 display.gstr
 ```
 Class: {Application}.
 	Main.
-        ** Display.
+	        ** Display.
 		Display: "Message1".
-        Display: "Message2".
-        Display: "Message3".
+	        Display: "Message2".
+	        Display: "Message3".
 
-        ** Display with new line.
-        Display with line: "Message4".
-        Display with line: "Message5".
-        Display with line: "Message6".
+	        ** Display with new line.
+	        Display with line: "Message4".
+	        Display with line: "Message5".
+	        Display with line: "Message6".
 	End method.
 End class.
 ```
