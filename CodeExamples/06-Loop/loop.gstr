@@ -11,7 +11,7 @@ Class: {Application}.
 			
 		** While loop, use Repeat while to read value from string_array.
 		Repeat while loop_count <= array_size:
-			Display with line: "Value of string_array[" {loop_count-1} "]: "{string_array, position:{loop_count - 1}}.
+			Display with line: "Value of string_array[" {loop_count - 1} "]: "{string_array, position:{loop_count - 1}}.
 			Assign to loop_count, value:{loop_count + 1}.
 		End loop.
 
