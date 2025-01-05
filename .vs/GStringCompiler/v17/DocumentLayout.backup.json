@@ -3,51 +3,75 @@
   "WorkspaceRootPath": "C:\\Users\\watch\\Desktop\\GString-Complier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\codegenerator\\codegen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:codegenerator\\codegen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\expression\\astexpr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\expression\\astexpr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:parser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\aststmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\aststmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\helper\\unsortedfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\helper\\unsortedfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\expression\\declarelocalelement\\localarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\expression\\declarelocalelement\\localarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\declarelocalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\declarelocalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\declarelocalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\aststmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\aststmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\callmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\callmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\callmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\repeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\repeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\repeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|c:\\users\\watch\\desktop\\gstring-complier\\abstractsyntaxtree\\statement\\readvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|C:\\Users\\watch\\Desktop\\GString-Complier\\abstractsyntaxtree\\statement\\readvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8319AF81-7D2E-41B9-A19D-8DB54F814136}|GStringCompiler.csproj|solutionrelative:abstractsyntaxtree\\statement\\readvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,11 +82,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAADYzMzMzIwxwBAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:11:15.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CodeGen.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\CodeGenerator\\CodeGen.cs",
+              "RelativeDocumentMoniker": "CodeGenerator\\CodeGen.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\CodeGenerator\\CodeGen.cs",
+              "RelativeToolTip": "CodeGenerator\\CodeGen.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:10:56.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AstExpr.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Expression\\AstExpr.cs",
+              "RelativeDocumentMoniker": "AbstractSyntaxTree\\Expression\\AstExpr.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Expression\\AstExpr.cs",
+              "RelativeToolTip": "AbstractSyntaxTree\\Expression\\AstExpr.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwCMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:10:53.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnsortedFinder.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Helper\\UnsortedFinder.cs",
+              "RelativeDocumentMoniker": "AbstractSyntaxTree\\Helper\\UnsortedFinder.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Helper\\UnsortedFinder.cs",
+              "RelativeToolTip": "AbstractSyntaxTree\\Helper\\UnsortedFinder.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:10:23.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalArray.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Expression\\DeclarelocalElement\\LocalArray.cs",
+              "RelativeDocumentMoniker": "AbstractSyntaxTree\\Expression\\DeclarelocalElement\\LocalArray.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Expression\\DeclarelocalElement\\LocalArray.cs",
+              "RelativeToolTip": "AbstractSyntaxTree\\Expression\\DeclarelocalElement\\LocalArray.cs",
+              "ViewState": "AgIAAB0AAACAyszMzEwewDYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:06:54.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assign.cs",
+              "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Assign.cs",
+              "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Assign.cs",
+              "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Assign.cs",
+              "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Assign.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwF4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:06:01.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AstStmt.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\AstStmt.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\AstStmt.cs",
@@ -70,25 +168,23 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\AstStmt.cs",
               "ViewState": "AgIAAAIAAAAANDMzM3MvwA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:59:39.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:59:39.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Parser.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\Parser\\Parser.cs",
               "RelativeDocumentMoniker": "Parser\\Parser.cs",
               "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\Parser\\Parser.cs",
               "RelativeToolTip": "Parser\\Parser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAcwGsBAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:55:32.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:55:32.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Return.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Return.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Return.cs",
@@ -96,12 +192,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Return.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:45:38.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:45:38.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Repeat.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Repeat.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Repeat.cs",
@@ -109,12 +204,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Repeat.cs",
               "ViewState": "AgIAAKQAAAAA+v////8TwOMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:44:24.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:44:24.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "CallMethod.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\CallMethod.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\CallMethod.cs",
@@ -122,12 +216,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\CallMethod.cs",
               "ViewState": "AgIAAPgAAAAAEJmZmZnlvxIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:34:36.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:34:36.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Method.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Method.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Method.cs",
@@ -135,12 +228,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Method.cs",
               "ViewState": "AgIAABMBAAAANDMzMzMuwCEBAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:42:05.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:42:05.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Field.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Field.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Field.cs",
@@ -148,12 +240,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Field.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:41:15.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:41:15.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Display.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Display.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Display.cs",
@@ -161,25 +252,23 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Display.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:41:15.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:41:15.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DeclareLocalVar.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\DeclareLocalVar.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\DeclareLocalVar.cs",
               "ToolTip": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\DeclareLocalVar.cs",
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\DeclareLocalVar.cs",
-              "ViewState": "AgIAAJMAAAAAMjMzMzMTwJ8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAADANTMzM7MjwDMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:40:07.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:40:07.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Condition.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Condition.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Condition.cs",
@@ -187,12 +276,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Condition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:39:42.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:39:42.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\Class.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\Class.cs",
@@ -200,12 +288,11 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\Class.cs",
               "ViewState": "AgIAACYAAAAAa2ZmZmYEwB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:37:35.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:37:35.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ReadValue.cs",
               "DocumentMoniker": "C:\\Users\\watch\\Desktop\\GString-Complier\\AbstractSyntaxTree\\Statement\\ReadValue.cs",
               "RelativeDocumentMoniker": "AbstractSyntaxTree\\Statement\\ReadValue.cs",
@@ -213,8 +300,7 @@
               "RelativeToolTip": "AbstractSyntaxTree\\Statement\\ReadValue.cs",
               "ViewState": "AgIAAEUAAAAAnJmZmZkOwFEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T03:43:46.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T03:43:46.885Z"
             }
           ]
         }
