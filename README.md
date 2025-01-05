@@ -24,7 +24,7 @@ This project relies heavily on the **Reflection.Emit** API, which works fine on 
 
 ## Usage
 ```
-   >> gstrc [-dll] <file.gstr>
+>> gstrc [-dll] <file.gstr>
 ```
 
 Example:
@@ -42,4 +42,6 @@ This project is discontinued and not open for contributions at the moment. Howev
 ---
 
 Thank you for checking out GString Compiler! I hope it provides value to those learning about compilers on the .NET framework. 🙏
+
+
 
