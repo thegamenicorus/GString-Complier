@@ -1,0 +1,5 @@
+Class: {Application}.
+	Main.
+		Display: "Hello, world!!".
+	End method.
+End class.
