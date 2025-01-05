@@ -14,7 +14,7 @@ namespace GStringCompiler
 
             if (args.Length < 1 || args.Length > 2)
             {
-                Console.WriteLine("Usage: gstrc [optional: -dll] <sourcecode.gstr>\n");
+                Console.WriteLine("Usage: gstrc [optional: -dll] <file.gstr>\n");
                 return;
             }
             try
