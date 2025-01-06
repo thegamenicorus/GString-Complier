@@ -1,6 +1,6 @@
 Class: {Application}.
-	Main.
-		** Read input in-line and display.
-		Display with line: "My name is " {Read input, "Your name: "} ", I am " {Read input, "Age: "} " years old.".
-	End method.
+    Main.
+        ** Read input in-line and display.
+        Display with line: "My name is " {Read input, "Your name: "} ", I am " {Read input, "Age: "} " years old.".
+    End method.
 End class.
