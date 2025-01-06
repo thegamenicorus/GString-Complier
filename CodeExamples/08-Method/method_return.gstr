@@ -3,7 +3,7 @@ Class: {Application}.
         Display with line: "Return from GetInt: " {Call method:{GetInt}}.
         Display with line: "Return from GetString: " {Call method:{GetString}}.
         
-        ** Read input -> int.Parse() -> invoke  AddByGetInt().
+        ** Read input -> int.Parse() -> invoke AddByGetInt().
         Display with line: "Return from AddByGetInt: " {
             Call method:{AddByGetInt, 
                 arguments:{
@@ -44,6 +44,6 @@ Class: {Application}.
     ** Define Greeting method.
     Method: {Greeting}, modifiers:{Public,Static}, return type:{string}, parameters:{message as string}.
         Declare greeting_message as string, value: {Call method:{GetString} + " " + message}.
-        Return: {  greeting_message }.
+        Return: { greeting_message }.
     End method.
 End class.
