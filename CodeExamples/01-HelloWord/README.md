@@ -4,9 +4,9 @@
 
 ```
 Class: {Application}.
-	Main.
-		Display: "Hello, world!!".
-	End method.
+    Main.
+        Display: "Hello, world!!".
+    End method.
 End class.
 ```
 
@@ -18,17 +18,17 @@ Hello, world!!
 ### 📝 display.gstr
 ```
 Class: {Application}.
-	Main.
-	        ** Display.
-		Display: "Message1".
-	        Display: "Message2".
-	        Display: "Message3".
+    Main.
+        ** Display.
+        Display: "Message1".
+        Display: "Message2".
+        Display: "Message3".
 
-	        ** Display with new line.
-	        Display with line: "Message4".
-	        Display with line: "Message5".
-	        Display with line: "Message6".
-	End method.
+        ** Display with new line.
+        Display with line: "Message4".
+        Display with line: "Message5".
+        Display with line: "Message6".
+    End method.
 End class.
 ```
 
