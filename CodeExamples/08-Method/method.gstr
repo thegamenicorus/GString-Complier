@@ -13,8 +13,8 @@ Class: {Application}.
     Method: {SumAndPrint}, modifiers:{Public,Static}, return type:{void}, parameters:{ num1 as string, num2 as string }.
         ** Parse both num1 and num2 to integer and invoke SumAndPrint(int num1, int num2).
         Call method: {SumAndPrint, arguments:{
-            (int, call method:{Parse,arguments:{num1}}),
-            (int, call method:{Parse,arguments:{num2}})
+                (int, call method:{Parse,arguments:{num1}}),
+                (int, call method:{Parse,arguments:{num2}})
             }
         }.
     End method.

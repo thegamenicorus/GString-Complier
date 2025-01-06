@@ -1,0 +1,49 @@
+Class: {Application}.
+    Main.
+        Display with line: "Return from GetInt: " {Call method:{GetInt}}.
+        Display with line: "Return from GetString: " {Call method:{GetString}}.
+        
+        ** Read input -> int.Parse() -> invoke  AddByGetInt().
+        Display with line: "Return from AddByGetInt: " {
+            Call method:{AddByGetInt, 
+                arguments:{
+                    (int, 
+                        call method:{ Parse,
+                            arguments:{
+                                (Read input, "Your number: ")
+                            }
+                        }
+                    )
+                }
+            }
+        }.
+
+        ** Read input -> invoke Greeting().
+        Display with line: "Return from Greeting: " {
+            Call method:{Greeting, 
+                arguments:{ (Read input, "Your message: ") }
+            }
+        }.
+    End method.
+    
+    ** Define GetInt method.
+    Method: {GetInt}, modifiers:{Public,Static}, return type:{int}.
+        Return: {50}.
+    End method.
+
+    ** Define GetString method.
+    Method: {GetString}, modifiers:{Public,Static}, return type:{string}.
+        Return: {"Hello there."}.
+    End method.
+
+    ** Define AddByGetInt method.
+    Method: {AddByGetInt}, modifiers:{Public,Static}, return type:{int}, parameters:{num as int}.
+        Return: {num + (Call method:{GetInt})}.
+    End method.
+
+    ** Define Greeting method.
+    Method: {Greeting}, modifiers:{Public,Static}, return type:{string}, parameters:{message as string}.
+        Declare greeting_message as string, value: {Call method:{GetString} + " " + message}.
+        Return: {  greeting_message }.
+    End method.
+End class.
