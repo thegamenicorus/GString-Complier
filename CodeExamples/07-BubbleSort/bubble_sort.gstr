@@ -3,12 +3,13 @@ Class: {Application}.
         Declare arr_size as int, value:{Read input,"Input array size: "}.
         Declare int_arr as array of int, size:{arr_size}.
 
+        ** Gathering input.
         Repeat since i:{0 to before arr_size}, increase by:{1}:
-        Assign to int_arr, position:{i}, value:{Read input,"Number " {i+1} ": "}.
+            Assign to int_arr, position:{i}, value:{Read input,"Number " {i+1} ": "}.
         End loop.
 
+        ** Sort.
         Declare int_temp as int.
-
         Repeat since i:{1 to {arr_size-1}}, increase by:{1}:
             Repeat since j:{0 to {arr_size-2}}, increase by:{1}:
                 If int_arr, position:{j} > int_arr, position:{j+1}:
@@ -19,6 +20,7 @@ Class: {Application}.
             End loop.
         End loop.
 
+        ** Display sorted array.
         Repeat since i:{0 to before arr_size}, increase by:{1}:
             Display: {int_arr, position:{i}} " ".
         End loop.
