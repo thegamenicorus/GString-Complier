@@ -52,6 +52,4 @@ Class: {Application}.
         }.
         Assign to text, value: {text + " (^._.^) Meow ~~  "}.
     End method.
-
-    
 End class.
