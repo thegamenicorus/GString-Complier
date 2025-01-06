@@ -1,4 +1,4 @@
-## Operations!
+## Condition!
 
 ### 📝 operations.gstr
 
