@@ -1,6 +1,6 @@
 Class: {Application}.
-	Main.
-		Declare num as int, value:{Read input, "Input number: "}.
+    Main.
+        Declare num as int, value:{Read input, "Input number: "}.
 
         If (num > 0):
             Display: "Positive and ".
@@ -23,5 +23,5 @@ Class: {Application}.
         Else:
             Display: "It's zero!".
         End condition. 
-	End method.
+    End method.
 End class.

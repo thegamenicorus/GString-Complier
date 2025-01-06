@@ -1,7 +1,7 @@
 Class: {Application}.
-	Main.
+    Main.
         ** Display.
-		Display: "Message1".
+        Display: "Message1".
         Display: "Message2".
         Display: "Message3".
 
@@ -9,5 +9,5 @@ Class: {Application}.
         Display with line: "Message4".
         Display with line: "Message5".
         Display with line: "Message6".
-	End method.
+    End method.
 End class.

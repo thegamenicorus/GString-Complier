@@ -1,7 +1,7 @@
 Class: {Application}.
-	Main.
+    Main.
         ** Declare.
-		Declare var1 as string.
+        Declare var1 as string.
         Declare var2 as bool.
         Declare xx as double.
 
@@ -17,5 +17,5 @@ Class: {Application}.
         Display with line: "var1 is " {var1}.
         Display with line: "var2 is " {var2}.
         Display with line: "var3 is " {var3}.
-	End method.
+    End method.
 End class.
