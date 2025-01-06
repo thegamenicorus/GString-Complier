@@ -18,8 +18,8 @@ Class: {Application}.
     Method: {SumAndPrint}, modifiers:{Public,Static}, return type:{void}, parameters:{ num1 as string, num2 as string }.
         ** Parse both num1 and num2 to integer and invoke SumAndPrint(int num1, int num2).
         Call method: {SumAndPrint, arguments:{
-            (int, call method:{Parse,arguments:{num1}}),
-            (int, call method:{Parse,arguments:{num2}})
+                (int, call method:{Parse,arguments:{num1}}),
+                (int, call method:{Parse,arguments:{num2}})
             }
         }.
     End method.
@@ -41,4 +41,68 @@ End class.
 input num1: 9119
 input num2: 1991
 Sum of 9119 and 1991 is 11110
+```
+---
+### 📝 method_return.gstr
+
+```
+Class: {Application}.
+    Main.
+        Display with line: "Return from GetInt: " {Call method:{GetInt}}.
+        Display with line: "Return from GetString: " {Call method:{GetString}}.
+        
+        ** Read input -> int.Parse() -> invoke  AddByGetInt().
+        Display with line: "Return from AddByGetInt: " {
+            Call method:{AddByGetInt, 
+                arguments:{
+                    (int, 
+                        call method:{ Parse,
+                            arguments:{
+                                (Read input, "Your number: ")
+                            }
+                        }
+                    )
+                }
+            }
+        }.
+
+        ** Read input -> invoke Greeting().
+        Display with line: "Return from Greeting: " {
+            Call method:{Greeting, 
+                arguments:{ (Read input, "Your message: ") }
+            }
+        }.
+    End method.
+    
+    ** Define GetInt method.
+    Method: {GetInt}, modifiers:{Public,Static}, return type:{int}.
+        Return: {50}.
+    End method.
+
+    ** Define GetString method.
+    Method: {GetString}, modifiers:{Public,Static}, return type:{string}.
+        Return: {"Hello there."}.
+    End method.
+
+    ** Define AddByGetInt method.
+    Method: {AddByGetInt}, modifiers:{Public,Static}, return type:{int}, parameters:{num as int}.
+        Return: {num + (Call method:{GetInt})}.
+    End method.
+
+    ** Define Greeting method.
+    Method: {Greeting}, modifiers:{Public,Static}, return type:{string}, parameters:{message as string}.
+        Declare greeting_message as string, value: {Call method:{GetString} + " " + message}.
+        Return: {  greeting_message }.
+    End method.
+End class.
+```
+
+#### Result:
+```
+Return from GetInt: 50
+Return from GetString: Hello there.
+Your number: 99
+Return from AddByGetInt: 149
+Your message: I am Jimmy!
+Return from Greeting: Hello there. I am Jimmy!
 ```
