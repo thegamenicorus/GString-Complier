@@ -4,16 +4,16 @@
 
 ```
 Class: {Application}.
-	Main.
-		** Declare.
-	    Declare string_from_input as string.
+    Main.
+        ** Declare.
+        Declare string_from_input as string.
 
-		** Read input.
-		Assign to string_from_input, value:{Read input, "Input your string: "}.
+        ** Read input.
+        Assign to string_from_input, value:{Read input, "Input your string: "}.
 
-		** Display.
-		Display with line: "Your string is -- " {string_from_input}.
-	End method.
+        ** Display.
+        Display with line: "Your string is -- " {string_from_input}.
+    End method.
 End class.
 ```
 
@@ -26,10 +26,10 @@ Your string is -- Hello from Sydney!
 ### 📝 read_input_inline.gstr
 ```
 Class: {Application}.
-	Main.
-		** Read input in-line and display.
-		Display with line: "My name is " {Read input, "Your name: "} ", I am " {Read input, "Age: "} " years old.".
-	End method.
+    Main.
+        ** Read input in-line and display.
+        Display with line: "My name is " {Read input, "Your name: "} ", I am " {Read input, "Age: "} " years old.".
+    End method.
 End class.
 ```
 
