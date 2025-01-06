@@ -106,3 +106,76 @@ Return from AddByGetInt: 149
 Your message: I am Jimmy!
 Return from Greeting: Hello there. I am Jimmy!
 ```
+---
+### 📝 method_pass_by_ref.gstr
+```
+Class: {Application}.
+    Main.
+        Declare num as int, value: {
+            (int, 
+                call method:{ Parse,
+                    arguments:{
+                        (Read input, "Number to x2: ")
+                    }
+                }
+            )
+        }.
+
+        Declare text as string, value: {Read input, "Text to cut space: "}.
+        
+        Display with line: "".
+        Display with line: "- Invoke DoubleNum...".
+        Call method: {DoubleNum, 
+            arguments: {
+                (pass by reference)num,
+            }
+        }.
+        Display with line: "Current num = " {num}.
+        Display with line: "Current text = " {text}.
+
+        Display with line: "".
+        Display with line: "- Invoke MakeItCute...".
+        Call method: {MakeItCute, 
+            arguments: {
+                (pass by reference)text,
+            }
+        }.
+        Display with line: "Current num = " {num}.
+        Display with line: "Current text = " {text}.
+    End method.
+    
+    ** Define DoubleNum, make the number twice.
+    Method: {DoubleNum}, 
+        modifiers:{Public,Static},
+        return type:{void}, 
+        parameters:{ 
+            (pass by reference)num as int
+        }.
+        Assign to num, value: {num * 2}.
+    End method.
+
+    ** Define MakeItCute, Concat text with a cat face and sound fx.
+    Method: {MakeItCute}, 
+        modifiers:{Public,Static},
+        return type:{void}, 
+        parameters:{ 
+            (pass by reference)text as string
+        }.
+        Assign to text, value: {text + " (^._.^) Meow ~~  "}.
+    End method.
+End class.
+```
+
+#### Result:
+```
+Number to x2: 82
+Text to cut space: OH Noooooooo!
+
+- Invoke DoubleNum...
+Current num = 164
+Current text = OH Noooooooo!
+
+- Invoke MakeItCute...
+Current num = 164
+Current text = OH Noooooooo! (^._.^) Meow ~~
+```
