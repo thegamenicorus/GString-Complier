@@ -16,11 +16,14 @@ The project is heavily inspired by the [GoodForNothing Compiler](https://learn.m
 #### - Primitive types: 
 GString Compiler currently supports:
 - `int`, `short`, `long`, `string`, and `boolean` types.
-- Partial support for `float` and `double` types.
+- [Partial support](https://github.com/thegamenicorus/GString-Complier/blob/main/CodeExamples/02-Variable/README.md#-variables_float_doublegstr) for `float` and `double` types.
+- Not support multi-dimensional array.
 
 #### - Reflection.Emit API
 This project relies heavily on the **Reflection.Emit** API, which works fine on .NET Framework 4.8. However, many significant changes have been made to the Reflection.Emit API in .NET Core and subsequent versions. Therefore, this project has not been upgraded to the latest .NET version.
 
+#### - Incomplete functionality  😳
+As mentioned earlier, this project is just a hobby and not intended for production use. It may have limited features, incomplete functionality, and many undiscovered bugs 🐞. Use it for learning, fun, or experiments, but avoid relying on it for critical or professional purposes! See the [Code examples](https://github.com/thegamenicorus/GString-Complier/tree/main?tab=readme-ov-file#code-examples) section for further exploration. 
 
 ## Usage
 ```
