@@ -1,0 +1,70 @@
+Class: {Application}.
+    Main.
+        Declare pi as float, value: {
+            (float, call method: {Parse, 
+                arguments:{
+                    "3.14159265"
+                }
+            })
+        }.
+        Declare electron_g_factor as double, value: {
+            (double, call method: {Parse, 
+                arguments:{
+                    "-2.00231930436092"
+                }
+            })
+        }.
+
+        Display with line: "Pi ~ " { pi }.
+        Display with line: "Pi/3 ~ " { pi/3 }.
+        Display with line: "Pi/3.5 ~ " { 
+            pi / 
+                (float, call method: {Parse, 
+                        arguments:{
+                            "3.5"
+                        }
+                    }
+                )
+        }.
+        Display with line: "Electron g-factor = " { electron_g_factor }.
+
+        ** Array.
+        Declare double_arr as array of double, size:{5}, value: {
+            [
+                (double, call method: {Parse, 
+                    arguments:{
+                        "1.11111"
+                    }
+                }),
+                (double, call method: {Parse, 
+                    arguments:{
+                        "2.22222"
+                    }
+                }),
+                (double, call method: {Parse, 
+                    arguments:{
+                        "3.33333"
+                    }
+                }),
+                (double, call method: {Parse, 
+                    arguments:{
+                        "4.44444"
+                    }
+                }),
+                (double, call method: {Parse, 
+                    arguments:{
+                        "5.55555"
+                    }
+                }),
+            ]
+        }.
+
+        Declare double_from_array_0, value: { double_arr, position:{0} }.
+
+        Display with line: "double_arr[1] = " { double_arr, position:{1} }.
+        Display with line: "double_arr[3] = " { double_arr, position:{3} }.
+        Display with line: "double_arr[4]/2 = " { double_arr, position:{4} / 2 }.
+        Display with line: "double_from_array_0 = " { double_from_array_0 }.
+
+    End method.
+End class.
