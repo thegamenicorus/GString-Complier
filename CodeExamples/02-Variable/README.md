@@ -58,7 +58,7 @@ str_arr[3] = Delta
 ```
 ---
 ### 📝 variables_float_double.gstr
-In this compiler, float and double cannot be used directly as literals (e.g., 1.10). Instead, we must use the Parse method, as shown in the example.
+In this compiler, float and double cannot be used directly as literals (e.g. 1.10, -9.95). Instead, we must use the Parse method, as shown in the example.
 
 ```
 Class: {Application}.
