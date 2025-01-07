@@ -60,12 +60,12 @@ Store location - C:\Users\yolo\Desktop\GString-Complier\CodeExamples\10-UseAsDLL
 - [Namespace Class and Modifiers](https://github.com/thegamenicorus/GString-Complier/tree/main/CodeExamples/09-Namespace_Class_Method_Modifiers) - Learn about namespaces, classes, and access modifiers.
 - [Use as DLL](https://github.com/thegamenicorus/GString-Complier/tree/main/CodeExamples/10-UseAsDLL) - Compile GString code as a DLL and integrate it with other .NET-based languages.
 
-## Contributing
+## ❌ 🙅 Contributing
 This project is discontinued and not open for contributions at the moment. However, feel free to fork the repository and explore on your own.
 
 ---
 
-Thank you for checking out GString Compiler! I hope it provides value to those learning about compilers on the .NET framework. 🙏
+🙏 Thank you for checking out my ***GString Compiler!*** I hope it provides value to those learning about compilers on the .NET framework. 🙏
 
 
 
