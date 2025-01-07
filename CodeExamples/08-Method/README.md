@@ -179,3 +179,36 @@ Current text = OH Noooooooo!
 Current num = 164
 Current text = OH Noooooooo! (^._.^) Meow ~~
 ```
+---
+### 📝 recursion_factorial.gstr
+```
+Class:{Application}.
+    Method:{Factorial}, modifiers:{Static}, return type:{long}, parameters:{num as long}.
+        If num == 0:
+            Return:{1}.
+        Else:
+            Return:{ num * Call method:{Factorial, arguments:{num-1}} }.
+        End condition.
+    End method.
+    
+    Main.
+        Declare fac_num as long, value:{
+            long, call method:{Parse, arguments:{(Read input,"Input number: ")}}						
+        }.
+
+        If fac_num < 0:
+            Display with line: "Can't find factorial of negative number".
+        Else if fac_num > 20:
+            Display with line: "Can't find factorial of the number bigger than 20".
+        Else:
+            Display with line:{fac_num} "! = " {Call method:{Factorial, arguments:{fac_num}}}.
+        End condition
+    End method.
+End class.
+```
+
+#### Result:
+```
+Input number: 13
+13! = 6227020800
+```
