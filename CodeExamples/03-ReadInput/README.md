@@ -1,4 +1,4 @@
-## Declare and assign variables!
+## Read user's input!
 
 ### 📝 read_input.gstr
 
