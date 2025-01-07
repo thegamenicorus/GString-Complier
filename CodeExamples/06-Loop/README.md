@@ -33,9 +33,9 @@ Class: {Application}.
 
         ** Do-while loop, use Do repeat to read value from string_array.
         Do:
-			Display with line: "Value of string_array[" {loop_count} "]: "{string_array, position:{loop_count}}.
+            Display with line: "Value of string_array[" {loop_count} "]: "{string_array, position:{loop_count}}.
             Assign to loop_count, value: {loop_count+1}.
-		Repeat while (loop_count < array_size).
+        Repeat while (loop_count < array_size).
     End method.
 End class.
 ```
