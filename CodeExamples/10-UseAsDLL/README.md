@@ -52,7 +52,55 @@ End namespace.
 
 Compile result - Success
 Compile time - 94 ms
-Store location - C:\Users\yolo\Desktop\GString-Complier\CodeExamples\09-Namespace_Class_Method_Modifiers\modifiers.exe
+Store location - C:\Users\yolo\Desktop\GString-Complier\CodeExamples\10-UseAsDLL\area_calculator.dll
 
 ```
+
+### Using area_calculator.dll with C#.NET
+
+#### 👉 Attach area_calculator.dll to C# project.
+
+<img width="790" alt="Screenshot 2025-01-07 at 1 35 32 PM" src="https://github.com/user-attachments/assets/f6dff6da-b157-42a0-9c0a-0594f6a1311b" />
+
+#### 👉 Intellisense works!! ✌️
+
+<img width="1019" alt="Screenshot 2025-01-07 at 1 47 23 PM" src="https://github.com/user-attachments/assets/6c052fa5-1c88-41b6-af2b-b0690401d99d" />
+
+
+<img width="889" alt="Screenshot 2025-01-07 at 1 47 51 PM" src="https://github.com/user-attachments/assets/267cd7f1-805f-4403-909b-3dc01b514013" />
+
+#### 👉 Let's compile and run!
+
+```C#
+var areaCalculator = new GString.Calculator.AreaCalculator();
+
+var squareArea = areaCalculator.calculateSquareArea(30);
+var rectangleArea = areaCalculator.calculateRectangleArea(30, 40);
+var circleArea = areaCalculator.calculateCircleArea(30);
+var sector = areaCalculator.calculateSectorArea(30, 90);
+var ellipse = areaCalculator.calculateEllipseArea(30, 20);
+var trapezoid = areaCalculator.calculateTrapezoidArea(30, 45, 20);
+var triangle = areaCalculator.calculateTriangleArea(30, 45);
+
+Console.WriteLine($"Square Area: {squareArea}");
+Console.WriteLine($"Rectangle Area: {rectangleArea}");
+Console.WriteLine($"Circle Area: {circleArea}");
+Console.WriteLine($"Sector Area: {sector}");
+Console.WriteLine($"Ellipse Area: {ellipse}");
+Console.WriteLine($"Trapezoid Area: {trapezoid}");
+Console.WriteLine($"Triangle Area: {triangle}");
+```
+
+#### Result
+```
+Square Area: 900
+Rectangle Area: 1200
+Circle Area: 2827.4333882308138
+Sector Area: 706.8583470577034
+Ellipse Area: 1884.9555921538758
+Trapezoid Area: 750
+Triangle Area: 675
+```
+
+
 
