@@ -48,6 +48,7 @@ Input value of string_array[1]: is
 Input value of string_array[2]: the
 Input value of string_array[3]: GString's
 Input value of string_array[4]: loops!
+
 Display with Repeat while loop:
 Value of string_array[0]: This
 Value of string_array[1]: is
